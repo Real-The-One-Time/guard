@@ -54,7 +54,7 @@ basic.forever(function () {
         basic.showString("SET")
         music.setTempo(100)
         while (true) {
-            if (TobbieII.RBlock(924)) {
+            if (TobbieII.RBlock(165)) {
                 alarm = 1
                 basic.showLeds(`
                     # . # . #
@@ -82,7 +82,7 @@ basic.forever(function () {
                     . . . . .
                     `)
             }
-            if (TobbieII.LBlock(924)) {
+            if (TobbieII.LBlock(165)) {
                 alarm = 1
                 basic.showLeds(`
                     # . # . #
