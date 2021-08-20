@@ -64,13 +64,14 @@ basic.forever(function () {
                     # . # . #
                     `)
                 for (let index = 0; index < 5; index++) {
-                    for (let index = 0; index < 5; index++) {
+                    for (let index = 0; index < 6; index++) {
                         TobbieII.rightward()
-                        basic.pause(100)
+                        basic.pause(50)
                         TobbieII.leftward()
-                        basic.pause(100)
+                        basic.pause(50)
                     }
                     TobbieII.rightward()
+                    TobbieII.leftward()
                     TobbieII.stopturn()
                     TobbieII.vibrate(8)
                 }
@@ -93,13 +94,14 @@ basic.forever(function () {
                     # . # . #
                     `)
                 for (let index = 0; index < 5; index++) {
-                    for (let index = 0; index < 5; index++) {
+                    for (let index = 0; index < 6; index++) {
                         TobbieII.rightward()
-                        basic.pause(100)
+                        basic.pause(50)
                         TobbieII.leftward()
-                        basic.pause(100)
+                        basic.pause(50)
                     }
                     TobbieII.rightward()
+                    TobbieII.leftward()
                     TobbieII.stopturn()
                     TobbieII.vibrate(8)
                 }
