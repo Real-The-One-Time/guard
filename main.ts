@@ -63,8 +63,8 @@ basic.forever(function () {
                     . . . . .
                     # . # . #
                     `)
-                for (let index = 0; index < 4; index++) {
-                    TobbieII.shake_head(10)
+                for (let index = 0; index < 5; index++) {
+                    TobbieII.shake_head(3)
                     TobbieII.vibrate(10)
                 }
                 alarm = 0
@@ -85,8 +85,8 @@ basic.forever(function () {
                     . . . . .
                     # . # . #
                     `)
-                for (let index = 0; index < 4; index++) {
-                    TobbieII.shake_head(10)
+                for (let index = 0; index < 5; index++) {
+                    TobbieII.shake_head(3)
                     TobbieII.vibrate(10)
                 }
                 alarm = 0
