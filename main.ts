@@ -54,7 +54,7 @@ basic.forever(function () {
         basic.showString("SET")
         music.setTempo(100)
         while (true) {
-            if (TobbieII.RBlock(512)) {
+            if (TobbieII.RBlock(767)) {
                 alarm = 1
                 basic.showLeds(`
                     # . # . #
@@ -63,7 +63,10 @@ basic.forever(function () {
                     . . . . .
                     # . # . #
                     `)
-                TobbieII.vibrate(50)
+                for (let index = 0; index < 4; index++) {
+                    TobbieII.shake_head(10)
+                    TobbieII.vibrate(10)
+                }
                 alarm = 0
                 basic.showLeds(`
                     . . . . .
@@ -73,7 +76,7 @@ basic.forever(function () {
                     . . . . .
                     `)
             }
-            if (TobbieII.LBlock(512)) {
+            if (TobbieII.LBlock(767)) {
                 alarm = 1
                 basic.showLeds(`
                     # . # . #
@@ -82,16 +85,19 @@ basic.forever(function () {
                     . . . . .
                     # . # . #
                     `)
-                TobbieII.vibrate(50)
+                for (let index = 0; index < 4; index++) {
+                    TobbieII.shake_head(10)
+                    TobbieII.vibrate(10)
+                }
                 alarm = 0
+                basic.showLeds(`
+                    . . . . .
+                    . . . . .
+                    . . . . .
+                    . . . . .
+                    . . . . .
+                    `)
             }
-            basic.showLeds(`
-                . . . . .
-                . . . . .
-                . . . . .
-                . . . . .
-                . . . . .
-                `)
         }
     }
 })
