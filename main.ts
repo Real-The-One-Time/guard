@@ -73,6 +73,7 @@ basic.forever(function () {
                     TobbieII.rightward()
                     TobbieII.leftward()
                     TobbieII.rightward()
+                    TobbieII.leftward()
                     TobbieII.stopturn()
                     TobbieII.vibrate(8)
                 }
@@ -104,6 +105,7 @@ basic.forever(function () {
                     TobbieII.rightward()
                     TobbieII.leftward()
                     TobbieII.rightward()
+                    TobbieII.leftward()
                     TobbieII.stopturn()
                     TobbieII.vibrate(8)
                 }
